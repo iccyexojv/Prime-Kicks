@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Prime Kicks</title>
+    <link rel="stylesheet" href="About.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  </head>
+  <body>
+    <!--navagation -->
+    <nav>
+      <div class="menu">
+        <div class="logo">
+          <a href="#">Prime Kicks</a>
+        </div>
+        <li class="search-icon">
+          <input type="search" placeholder="Search">
+          <label class="icon">
+          <span class="fas fa-search"></span>
+          </label>
+       </li>
+        <ul>
+          <li><a href="Home.html">Home 🏠︎ </a></li>
+          <li><a href="About.html">About us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="contact.html">Contact ✆</a></li>
+          <li><a href="#">Mycart 🛒</a></li>
+        </ul>
+      </div>
+    </nav>
+ <div class="info">
+  <h1>Welcome to Prime Kicks</h1><br><br>
+       Your ultimate destination for sneaker enthusiasts!
+       We specialize in offering a curated selection of the latest and most sought-after
+       sneakers from top brands around the globe. Our mission is to provide a seamless shopping experience,
+       ensuring you find the perfect pair that matches your style and passion. 
+       Whether you’re a collector or just looking for everyday comfort.<br><br>
+       <h3>Explore our diverse range, enjoy exclusive releases, and join our community of sneaker lovers today!!</h3><br>
+       <h2>We’re here to elevate your sneaker game.</h2>
+ </div>
+    <div class="img"> <img src=""></div>
+    <footer>
+      <div><p> 
+         Privacy Policy | Terms and Conditions</p>       
+         <p>© 2024 Prime Kicks, Inc.</p></div> 
+    </footer>
+    <script>
+      $('nav ul li.btn span').click(function(){
+        $('nav ul div.items').toggleClass("show");
+        $('nav ul li.btn span').toggleClass("show");
+      });
+   </script>
+  </body>
+</html>
